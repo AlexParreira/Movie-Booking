@@ -1,0 +1,27 @@
+//
+//  TicketData.swift
+//  Movie Booking
+//
+//  Created by Alexander Parreira on 29/08/23.
+//
+
+import Foundation
+
+struct TicketModel: Identifiable{
+    
+    var id = UUID().uuidString
+    var image: String
+    var title: String
+    var subtitle: String
+    var top: String
+    var bottom: String
+    
+}
+
+var tickets: [TicketModel] = [
+
+    TicketModel(image: "thor", title: "Thor", subtitle: "Love and Thunder", top: "thor-top", bottom: "thor-bottom"),
+    TicketModel(image: "panther", title: "Panther", subtitle: "Wacanda Forever", top: "panther-top", bottom: "panther-bottom"),
+    TicketModel(image: "scarlet", title: "Doctor Strange", subtitle: "in the Multiverse of Madness", top: "scarlet-top", bottom: "scarlet-bottom")
+    
+]
