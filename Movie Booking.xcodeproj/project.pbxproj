@@ -17,6 +17,8 @@
 		EB2152F32A9E846300D32D71 /* PosterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2152F22A9E846300D32D71 /* PosterData.swift */; };
 		EB2152F92A9E87F700D32D71 /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2152F82A9E87F700D32D71 /* utils.swift */; };
 		EB9F12312A9FE26C00440452 /* Tickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9F12302A9FE26C00440452 /* Tickets.swift */; };
+		EBF5B5002AA0DFE30056FDE9 /* TabData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF5B4FF2AA0DFE30056FDE9 /* TabData.swift */; };
+		EBF5B5022AA0E4060056FDE9 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF5B5012AA0E4060056FDE9 /* CustomTabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		EB2152F22A9E846300D32D71 /* PosterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterData.swift; sourceTree = "<group>"; };
 		EB2152F82A9E87F700D32D71 /* utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
 		EB9F12302A9FE26C00440452 /* Tickets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tickets.swift; sourceTree = "<group>"; };
+		EBF5B4FF2AA0DFE30056FDE9 /* TabData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabData.swift; sourceTree = "<group>"; };
+		EBF5B5012AA0E4060056FDE9 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +126,7 @@
 		EB2152E72A9E271900D32D71 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				EBF5B5012AA0E4060056FDE9 /* CustomTabBar.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -131,6 +136,7 @@
 			children = (
 				EB2152ED2A9E7F9400D32D71 /* TicketData.swift */,
 				EB2152F22A9E846300D32D71 /* PosterData.swift */,
+				EBF5B4FF2AA0DFE30056FDE9 /* TabData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -286,7 +292,9 @@
 				EB2152EC2A9E275400D32D71 /* TicketView.swift in Sources */,
 				EB2152EE2A9E7F9400D32D71 /* TicketData.swift in Sources */,
 				EB2152F32A9E846300D32D71 /* PosterData.swift in Sources */,
+				EBF5B5002AA0DFE30056FDE9 /* TabData.swift in Sources */,
 				EB2152F12A9E80FF00D32D71 /* Ticket.swift in Sources */,
+				EBF5B5022AA0E4060056FDE9 /* CustomTabBar.swift in Sources */,
 				EB2152C02A9E269F00D32D71 /* ContentView.swift in Sources */,
 				EB2152BE2A9E269F00D32D71 /* Movie_BookingApp.swift in Sources */,
 				EB9F12312A9FE26C00440452 /* Tickets.swift in Sources */,
