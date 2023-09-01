@@ -16,6 +16,9 @@
 		EB2152F12A9E80FF00D32D71 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2152F02A9E80FF00D32D71 /* Ticket.swift */; };
 		EB2152F32A9E846300D32D71 /* PosterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2152F22A9E846300D32D71 /* PosterData.swift */; };
 		EB2152F92A9E87F700D32D71 /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2152F82A9E87F700D32D71 /* utils.swift */; };
+		EB9E9FA32AA23FCC00D5B3F2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9E9FA22AA23FCC00D5B3F2 /* HomeView.swift */; };
+		EB9E9FA52AA242AA00D5B3F2 /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9E9FA42AA242AA00D5B3F2 /* CustomSearchBar.swift */; };
+		EB9E9FA72AA2459F00D5B3F2 /* ScrollSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9E9FA62AA2459F00D5B3F2 /* ScrollSection.swift */; };
 		EB9F12312A9FE26C00440452 /* Tickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9F12302A9FE26C00440452 /* Tickets.swift */; };
 		EBF5B5002AA0DFE30056FDE9 /* TabData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF5B4FF2AA0DFE30056FDE9 /* TabData.swift */; };
 		EBF5B5022AA0E4060056FDE9 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF5B5012AA0E4060056FDE9 /* CustomTabBar.swift */; };
@@ -51,6 +54,9 @@
 		EB2152F02A9E80FF00D32D71 /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
 		EB2152F22A9E846300D32D71 /* PosterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterData.swift; sourceTree = "<group>"; };
 		EB2152F82A9E87F700D32D71 /* utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
+		EB9E9FA22AA23FCC00D5B3F2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EB9E9FA42AA242AA00D5B3F2 /* CustomSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
+		EB9E9FA62AA2459F00D5B3F2 /* ScrollSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollSection.swift; sourceTree = "<group>"; };
 		EB9F12302A9FE26C00440452 /* Tickets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tickets.swift; sourceTree = "<group>"; };
 		EBF5B4FF2AA0DFE30056FDE9 /* TabData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabData.swift; sourceTree = "<group>"; };
 		EBF5B5012AA0E4060056FDE9 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
@@ -127,6 +133,8 @@
 			isa = PBXGroup;
 			children = (
 				EBF5B5012AA0E4060056FDE9 /* CustomTabBar.swift */,
+				EB9E9FA42AA242AA00D5B3F2 /* CustomSearchBar.swift */,
+				EB9E9FA62AA2459F00D5B3F2 /* ScrollSection.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -145,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				EB2152EB2A9E275400D32D71 /* TicketView.swift */,
+				EB9E9FA22AA23FCC00D5B3F2 /* HomeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -290,9 +299,12 @@
 			files = (
 				EB2152F92A9E87F700D32D71 /* utils.swift in Sources */,
 				EB2152EC2A9E275400D32D71 /* TicketView.swift in Sources */,
+				EB9E9FA52AA242AA00D5B3F2 /* CustomSearchBar.swift in Sources */,
 				EB2152EE2A9E7F9400D32D71 /* TicketData.swift in Sources */,
 				EB2152F32A9E846300D32D71 /* PosterData.swift in Sources */,
 				EBF5B5002AA0DFE30056FDE9 /* TabData.swift in Sources */,
+				EB9E9FA32AA23FCC00D5B3F2 /* HomeView.swift in Sources */,
+				EB9E9FA72AA2459F00D5B3F2 /* ScrollSection.swift in Sources */,
 				EB2152F12A9E80FF00D32D71 /* Ticket.swift in Sources */,
 				EBF5B5022AA0E4060056FDE9 /* CustomTabBar.swift in Sources */,
 				EB2152C02A9E269F00D32D71 /* ContentView.swift in Sources */,
