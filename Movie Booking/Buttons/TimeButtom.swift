@@ -1,8 +1,8 @@
 //
-//  TimeButton.swift
-//  MovieBooking
+//  TimeButtom.swift
+//  Movie Booking
 //
-//  Created by Willie Yam on 2022-08-16.
+//  Created by Alexander Parreira on 01/09/23.
 //
 
 import SwiftUI
@@ -42,3 +42,4 @@ struct TimeButton: View {
         }
     }
 }
+

@@ -1,9 +1,9 @@
-//
-//  utils.swift
-//  MovieBooking
-//
-//  Created by Willie Yam on 2022-08-16.
-//
+    //
+    //  BookingView.swift
+    //  Movie Booking
+    //
+    //  Created by Alexander Parreira on 28/08/23.
+    //
 
 import UIKit
 import SwiftUI

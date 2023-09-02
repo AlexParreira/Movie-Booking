@@ -1,8 +1,8 @@
 //
 //  LargeButton.swift
-//  MovieBooking
+//  Movie Booking
 //
-//  Created by Willie Yam on 2022-08-19.
+//  Created by Alexander Parreira on 01/09/23.
 //
 
 import SwiftUI
