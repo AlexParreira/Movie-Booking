@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct BookingView: View {
-    
+    @ Environment(\.dismiss) var dismiss
     @State var gradient = [
     Color("backgroundColor2").opacity(0),
     Color("backgroundColor2"),
@@ -34,8 +34,14 @@ struct BookingView: View {
                 .frame(maxHeight: .infinity, alignment: .bottom)
                 VStack (spacing: 0.0){
                     HStack{
-                        CircleButton(action: {}, image: "arrow.left")
+                        CircleButton(action: {
+                            dismiss()
+                            
+                        }, image: "arrow.left")
+                        
+                        
                         Spacer()
+                        
                         CircleButton(action: {}, image: "ellipsis")
                     }
                     .padding(EdgeInsets(top: 46, leading: 20, bottom: 0, trailing: 20))
@@ -103,7 +109,7 @@ struct BookingView: View {
                             .padding(.top, 20)
                     }
                     NavigationLink{
-                        Text("Seat View")
+                        SeatsView()
                     } label: {
                         LargeButton()
                             .padding(20)

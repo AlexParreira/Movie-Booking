@@ -25,6 +25,8 @@
 		EB9E9FBD2AA2C1B300D5B3F2 /* TimeButtom.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9E9FBC2AA2C1B300D5B3F2 /* TimeButtom.swift */; };
 		EB9E9FBF2AA2C3AC00D5B3F2 /* LargeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9E9FBE2AA2C3AC00D5B3F2 /* LargeButton.swift */; };
 		EB9F12312A9FE26C00440452 /* Tickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9F12302A9FE26C00440452 /* Tickets.swift */; };
+		EBBA7DA42AA4D587002DFBB6 /* SeatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBA7DA32AA4D587002DFBB6 /* SeatsView.swift */; };
+		EBBA7DA62AA4D850002DFBB6 /* StatusUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBA7DA52AA4D850002DFBB6 /* StatusUI.swift */; };
 		EBF5B5002AA0DFE30056FDE9 /* TabData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF5B4FF2AA0DFE30056FDE9 /* TabData.swift */; };
 		EBF5B5022AA0E4060056FDE9 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF5B5012AA0E4060056FDE9 /* CustomTabBar.swift */; };
 /* End PBXBuildFile section */
@@ -68,6 +70,8 @@
 		EB9E9FBC2AA2C1B300D5B3F2 /* TimeButtom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeButtom.swift; sourceTree = "<group>"; };
 		EB9E9FBE2AA2C3AC00D5B3F2 /* LargeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeButton.swift; sourceTree = "<group>"; };
 		EB9F12302A9FE26C00440452 /* Tickets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tickets.swift; sourceTree = "<group>"; };
+		EBBA7DA32AA4D587002DFBB6 /* SeatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatsView.swift; sourceTree = "<group>"; };
+		EBBA7DA52AA4D850002DFBB6 /* StatusUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusUI.swift; sourceTree = "<group>"; };
 		EBF5B4FF2AA0DFE30056FDE9 /* TabData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabData.swift; sourceTree = "<group>"; };
 		EBF5B5012AA0E4060056FDE9 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -146,6 +150,7 @@
 				EBF5B5012AA0E4060056FDE9 /* CustomTabBar.swift */,
 				EB9E9FA42AA242AA00D5B3F2 /* CustomSearchBar.swift */,
 				EB9E9FA62AA2459F00D5B3F2 /* ScrollSection.swift */,
+				EBBA7DA52AA4D850002DFBB6 /* StatusUI.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -166,6 +171,7 @@
 				EB2152EB2A9E275400D32D71 /* TicketView.swift */,
 				EB9E9FA22AA23FCC00D5B3F2 /* HomeView.swift */,
 				EB9E9FA82AA24DA700D5B3F2 /* BookingView.swift */,
+				EBBA7DA32AA4D587002DFBB6 /* SeatsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -323,6 +329,7 @@
 				EB9E9FB92AA2BA0000D5B3F2 /* CircleButton.swift in Sources */,
 				EB2152F92A9E87F700D32D71 /* utils.swift in Sources */,
 				EB2152EC2A9E275400D32D71 /* TicketView.swift in Sources */,
+				EBBA7DA62AA4D850002DFBB6 /* StatusUI.swift in Sources */,
 				EB9E9FA92AA24DA700D5B3F2 /* BookingView.swift in Sources */,
 				EB9E9FA52AA242AA00D5B3F2 /* CustomSearchBar.swift in Sources */,
 				EB9E9FBB2AA2BF2D00D5B3F2 /* DateButton.swift in Sources */,
@@ -330,6 +337,7 @@
 				EB2152F32A9E846300D32D71 /* PosterData.swift in Sources */,
 				EBF5B5002AA0DFE30056FDE9 /* TabData.swift in Sources */,
 				EB9E9FA32AA23FCC00D5B3F2 /* HomeView.swift in Sources */,
+				EBBA7DA42AA4D587002DFBB6 /* SeatsView.swift in Sources */,
 				EB9E9FA72AA2459F00D5B3F2 /* ScrollSection.swift in Sources */,
 				EB2152F12A9E80FF00D32D71 /* Ticket.swift in Sources */,
 				EBF5B5022AA0E4060056FDE9 /* CustomTabBar.swift in Sources */,

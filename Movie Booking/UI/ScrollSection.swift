@@ -25,7 +25,7 @@ struct ScrollSection: View {
                     ForEach(posters.indices, id: \.self){ index in
                         
                         NavigationLink{
-                            Text("Booking View")
+                            BookingView()
                         } label: {
                             Image(posters[index])
                                 .resizable()
